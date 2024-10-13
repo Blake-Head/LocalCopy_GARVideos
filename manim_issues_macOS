@@ -12,6 +12,8 @@ However, I ran into an issue on the newer version of macOS where something about
 4. Once that runs, you can run "ls -a" to ensure the hidden file .py3env exists.
 5. To activate the virtual enviroment, run the following command: "source .py3env/bin/activate"
     -note: you could probably make an alias for this command if it's something that needs to be done very often. 
-6. Once you are inside the virtual enviroment, you should be able to render and manipulate manim files, and execute manim commands from the command line. This is primarily used for rendering the animations in 4k once everything is ready to go. 
+6. At this step, you should be able to (if you've not done so already) install Manim with the following command: "pip install manim"
+    -note: This assumes you have "pip" installed.  This is a python package installer, very useful to have for mac. 
+7. Once you are inside the virtual enviroment, you should be able to render and manipulate manim files, and execute manim commands from the command line. This is primarily used for rendering the animations in 4k once everything is ready to go. 
 
 Since this seems to be an issue tied up with the operating system, I expect this process to not work sometime in the future.  If this happens and you figure out what needs to be changed, please add those updates here. 
