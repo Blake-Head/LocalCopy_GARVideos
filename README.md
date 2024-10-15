@@ -13,6 +13,7 @@ And also, it just seems cool to do.
 To get familiar with the kind of style we will be aiming for, I would reccommend you watch a video or two from these two channels:
 
 https://www.youtube.com/@3blue1brown - 3Blue1Brown
+
 https://www.youtube.com/@RichBehiel/videos - Rich Behiel
 
 To get started using manim, head to the following link and follow the installation procedure. 
