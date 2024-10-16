@@ -1,8 +1,7 @@
 # GAR Videos for Texas A&M University-Commerce
-
-<img
- ![Lion-Head-Clear-Space-1](https://github.com/user-attachments/assets/b970e089-0aa9-4b07-9f39-b8a795e9e953)>
-</img>
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/b970e089-0aa9-4b07-9f39-b8a795e9e953">
+</p>
 
 # Videos being created under the supervision of Dr. Blake Head
  
