@@ -44,5 +44,32 @@ class SCENE_NAME1(Scene):        # Each chunk of code will begin with these two 
         a_circle = Circle()     # Define a variable called "a_circle", which will be the MObject "Circle".  Currently, no paramenters are passed to the Circle function. 
 ```
 
+![SCENE_NAME1@2024-10-15@22-51-10](https://github.com/user-attachments/assets/8ef2182f-0c53-4f77-b10f-5de1b8bc25a4)
+
+Running this, nothing happens.  That's because we've only defined what our variable, "circle", is.  We haven't actually told the program to do anything with it.  
+
+Let's now tell the program to actually ANIMATE the circle onto the scene. 
+
+Here, we've added the line "self.play(Create(circle))" to the end.  
+
+This command tells the program to play a certain type of animation, which in this case is the "Create" animation.  What thing do we want to create? The circle. 
+
+```python
+%%manim -qh SCENE_NAME2
+
+from manim import *
+
+class SCENE_NAME2(Scene):        # Each chunk of code will begin with these two lines. The first line defines a 'class' called SCENE_NAME, which has the type "scene"
+    def construct(self):        # The second line defines the "self" construct.  I'm not entirely sure what this does, but you need it for things to work. 
+        a_circle = Circle()     # Define a variable called "a_circle", which will be the MObject "Circle".  Currently, no paramenters are passed to the Circle function. 
+
+        self.play(Create(a_circle))     # Animate the circle onto the screen using the "Create" animation
+```
+
+
+
+
+https://github.com/user-attachments/assets/2eea5e49-8b17-4200-9d44-0f9d4043d348
+
 
 
