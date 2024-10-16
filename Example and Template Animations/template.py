@@ -9,4 +9,4 @@ class SCENE_NAME(Scene): # Each chunk of code will begin with these two lines. T
             self.play(Create(circ)) # Use the animation "Create" to put circ on the screen
             self.play(FadeIn(sqr)) # Use the animation "FadeIn" to put sqr on the screen
 
-            self.wait(3) # Make the aaaanimation wait 3 secons before ending
+            self.wait(3) # Make the animation wait 3 secons before ending
