@@ -41,7 +41,7 @@ class Logo(Scene):
         arc = Arc(angle = PI/2, color = BLACK, stroke_width = 5).move_to(tri.get_bottom()).scale(.5).shift(UP*.25+LEFT*2)
 
         moto1 = Tex("Everything",color = PURE_RED, font_size = 60).to_edge(LEFT).shift(UP*1).set_stroke(width =text_stroke, color = BLACK)
-        moto2 = Tex("is a fucking",color = PURE_RED, font_size = 60).to_edge(LEFT).shift(UP*0).set_stroke(width =text_stroke, color = BLACK)
+        moto2 = Tex("is a",color = PURE_RED, font_size = 60).to_edge(LEFT).shift(UP*0).set_stroke(width =text_stroke, color = BLACK)
         moto3 = Tex("triangle.",color = PURE_RED, font_size = 60).to_edge(LEFT).shift(DOWN*1).set_stroke(width =text_stroke, color = BLACK)
         moto = VGroup(moto1, moto2, moto3)
 
