@@ -24,3 +24,8 @@ https://www.youtube.com/@RichBehiel/videos - Rich Behiel
 To get started using manim, head to the following link and follow the installation procedure. 
 
 https://www.manim.community/
+
+# Current Tasks
+
+- [ ] Test Task
+- [x] Completed Test Task 
