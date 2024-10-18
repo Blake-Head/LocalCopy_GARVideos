@@ -3,6 +3,7 @@ from manim import *   # This line imports the entire manim library, allows manim
 class SCENE_NAME(Scene): # Each chunk of code will begin with these two lines. The first line defines a 'class' called SCENE_NAME, which has the type "scene"
     def construct(self): # The second line defines the "self" construct.  I'm not entirely sure what this does, but you need it for things to work. 
             
+            # Define a circle and a square, then draw them to the screen
             circ = Circle() # Make a Circle called "circ"
             sqr = Square() # Make a Square called "sqr"
 
@@ -13,7 +14,7 @@ class SCENE_NAME(Scene): # Each chunk of code will begin with these two lines. T
 
 # To render this scence and watch it, run the following in the command line:
 
-# manim -pql template.py SCENE_NAME 
+# manim -pql template.py SCENE_NAME
 
 # Here's what that command does:
 #   'manim' says "use the manim function with the following parameters"
