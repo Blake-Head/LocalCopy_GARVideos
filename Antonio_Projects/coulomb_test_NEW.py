@@ -33,7 +33,7 @@ class CoulombNEW(Scene):
         char1 = VGroup(dot1, c1)
         char2 = VGroup(dot2, c2)
         rline = always_redraw(lambda: Line(start=dot1.get_center(), end=dot2.get_center(), color=GREEN))
-        r_text = always_redraw(lambda: Tex("r").next_to(rline, UP, buff=0.2))
+        r_text = always_redraw(lambda: Tex("r").move_to(rline.get_center() + UP * 0.2))
         
         # Function to update the on-screen Force equation with the new r values
         def update_force_text(force_text):
