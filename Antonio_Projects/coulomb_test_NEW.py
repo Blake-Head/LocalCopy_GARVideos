@@ -28,12 +28,12 @@ class CoulombNEW(Scene):
         force_text = MathTex(r"\vec{F}_{c} = k_{c} \frac{q_1 q_2}{r^2} \ \hat{\mathrm{r}} =", str(round(force, 2)), r"\ \mathrm{N} \ \hat{\mathrm{r}}").to_edge(UP)
         
         # Taken from Blake's initial code: Redraws all of the variables in the video as we move them around
-        c1 = always_redraw(lambda: MathTex(r"q_1").next_to(dot1, UP, buff=0.1))
-        c2 = always_redraw(lambda: MathTex(r"q_2").next_to(dot2, UP, buff=0.1))
+        c1 = always_redraw(lambda: MathTex(r"q_1").next_to(dot1, UP, buff=0.2))
+        c2 = always_redraw(lambda: MathTex(r"q_2").next_to(dot2, UP, buff=0.2))
         char1 = VGroup(dot1, c1)
         char2 = VGroup(dot2, c2)
         rline = always_redraw(lambda: Line(start=dot1.get_center(), end=dot2.get_center(), color=GREEN))
-        r_text = always_redraw(lambda: Tex("r").next_to(rline, UP, buff=0.1))
+        r_text = always_redraw(lambda: Tex("r").move_to(rline.get_center() + UP * 0.2))
         
         # Function to update the on-screen Force equation with the new r values
         def update_force_text(force_text):
