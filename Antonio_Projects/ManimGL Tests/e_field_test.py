@@ -7,10 +7,11 @@ import numpy as np
 class PointChargeInElectricField(Scene):
     def construct(self):
         # Create the electric field
-        field = mp.ElectricField()
+        #field = mp.ElectricField()
         
         # Create the point charge
-        pointCharge = mp.Charge(magnitude=1, position=np.array([-3, 0, 0]))
+        pointCharge = mp.Charge(magnitude=1, point=np.array([-3, 0, 0]))
+        field = mp.ElectricField(pointCharge)
 
         # Add the electric field and the point charge to the scene
         self.add(field, pointCharge)
