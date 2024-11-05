@@ -10,7 +10,7 @@ class PointChargeInElectricField(Scene):
         #field = mp.ElectricField()
         
         # Create the point charge
-        pointCharge = mp.Charge(magnitude=1, point=np.array([-3, 0, 0]))
+        pointCharge = mp.Charge(magnitude=3, point=np.array([-3, 0, 0]))
         field = mp.ElectricField(pointCharge)
 
         # Add the electric field and the point charge to the scene
